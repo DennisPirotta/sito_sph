@@ -12,7 +12,10 @@
                             <h5 class="text-white text-uppercase mb-3 animated slideInDown">SPH Technology</h5>
                             <h1 class="display-1 text-white mb-md-4 animated zoomIn">{{ __('home.title') }}</h1>
 
-                            <a href="{{ url('contact') }}" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">
+                            <a href="{{ url('quote') }}" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">
+                                {{ __('Richiedi un preventivo') }}
+                            </a>
+                            <a href="{{ url('contact') }}" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">
                                 {{ __('Contattaci') }}
                             </a>
                         </div>

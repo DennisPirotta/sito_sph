@@ -31,4 +31,4 @@ Route::get('/locale/{locale}', function (string $locale) {
     return redirect()->back();
 })->name('locale.update');
 
-Route::get('/terms', fn() => File::get(public_path('/doc/INFORMATIVA_LPD_SVIZZERA_S+H_TECHNOLOGY.pdf')));
+Route::get('/terms', fn() => response()->file(public_path('/doc/INFORMATIVA_LPD_SVIZZERA_S+H_TECHNOLOGY.pdf')))->name('terms');

@@ -66,7 +66,7 @@
                                 </div>
                                 <div class="col-12 d-flex align-items-center" style="color: black !important;">
                                     <input type="checkbox" name="privacy&policies" class="form-check" id="subscription" required>
-                                    <label class="ms-2" for="subscription">Accetto i <a href="{{ asset('doc/INFORMATIVA_LPD_SVIZZERA_S+H_TECHNOLOGY.pdf') }}" role="button" class="text-decoration-underline" style="color: darkslategray">termini e condizioni</a></label>
+                                    <label class="ms-2" for="subscription">Accetto i <a href="{{ route('terms') }}" role="button" class="text-decoration-underline" style="color: darkslategray">termini e condizioni</a></label>
                                 </div>
                                 <div class="col-12">
                                     <button class="btn btn-dark w-100 py-3" type="submit">{{ __('Invia la richiesta') }}</button>

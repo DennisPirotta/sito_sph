@@ -58,13 +58,13 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="position-relative h-100 d-flex align-items-center">
-                        <img class="img-fluid wow fadeInUp" data-wow-delay="0.4s" src="{{ asset('images/mac4.jfif') }}" alt="">
+                        <img class="img-fluid wow fadeInLeft" data-wow-delay="0.2s" src="{{ asset('images/mac4.jfif') }}" alt="">
                     </div>
                 </div>
 
                 <div class="col-lg-5 ">
                     <div class="position-relative h-100 d-flex align-items-center" style="min-height: 500px;">
-                        <img src="{{ asset('images/mac5.jpg') }}" data-wow-delay="0.4s" class="img-fluid wow fadeInUp" alt="">
+                        <img src="{{ asset('images/mac5.jpg') }}" data-wow-delay="0.3s" class="img-fluid wow fadeInRight" alt="">
                     </div>
                 </div>
                 <div class="col-lg-7 d-flex align-items-center">
@@ -98,7 +98,7 @@
 
                 <div class="col-lg-5">
                     <div class="position-relative d-flex align-items-center h-100" style="min-height: 500px;">
-                        <img src="{{ asset('images/lam.webp') }}" data-wow-delay="0.4s" class="img-fluid wow fadeInUp" alt="">
+                        <img src="{{ asset('images/lam.webp') }}" data-wow-delay="0.4s" class="img-fluid wow fadeInLeftBig" alt="">
                     </div>
                 </div>
                 <div class="col-lg-7 d-flex align-items-center">
@@ -131,7 +131,7 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="position-relative h-100 d-flex align-items-center" style="min-height: 500px;">
-                        <img src="{{ asset('images/qua.jpeg') }}" data-wow-delay="0.4s" class="img-fluid wow fadeInUp" alt="">
+                        <img src="{{ asset('images/qua.jpeg') }}" data-wow-delay="0.4s" class="img-fluid wow fadeInRight" alt="">
                     </div>
                 </div>
             </div>
