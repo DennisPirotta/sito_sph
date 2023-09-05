@@ -1,0 +1,14 @@
+<?php
+
+return [
+    'title' => 'Chi siamo',
+    'subtitle' => 'S+H Technology s.r.l.- Il Vostro partner per l\'automazione',
+    'text' => 'Pronti ad accogliere ogni sfida nel campo dell’automazione abbiamo svolto lavori in numerosi ambiti, specializzandoci nella creazione di sistemi di collaudo, sistemi di controllo, nella realizzazione di macchine automatiche<br><br>Siamo esperti programmazione PLC Bosch Rexroth, Siemens, Allen Bradley, primeggiamo nella programmazione di National Instruments in LabView e programmazione di sistemi di controllo assi Bosch Rexroth, Siemens, Rockwell e ABB.<br><br>Con il passare degli anni grazie all’inserimento di personale, selezionato in base alla loro attitudine al lavoro di gruppo e alla reciproca collaborazione oltre alla loro qualifica, la S+H Technology, si è arricchita ulteriormente sia dal punto di vista umano che professionale, con l’obbiettivo che l’ha sempre contraddistinta, fin dalla fondazione, che è quello di soddisfare i suoi clienti in modo adeguato nella forma e nella sostanza in modo professionale ed umano, per il raggiungimento dei loro obbiettivi. Grazie a queste caratteristiche la S+H Technology ha sempre stretto un rapporto con i suoi clienti che va al di là del semplice rapporto cliente fornitore, creando un sodalizio di profonda, fattiva e stretta collaborazione.',
+    'us' => [
+        'title' => 'Perché scegliere noi',
+        'subtitle' => "SPH Technology ed i nostri tre punti cardine",
+        'digitalization' => 'La digitalizzazione è essenziale per l\'automazione industriale, migliorando efficienza e sostenibilità. Le imprese automatizzate e connesse generano risparmi energetici e adottano sistemi innovativi. Gli esperti concordano sulla necessità di accelerare la transizione digitale per benefici aziendali e ambientali.',
+        'sustainability' => 'La fabbrica 4.0, grazie alle tecnologie innovative, diventa sempre più efficiente e sostenibile sotto l\'aspetto ambientale, sociale ed economico. I sistemi di automazione industriale ad alto tasso tecnologico semplificano la gestione delle normative ambientali, generando convenienza economica e risparmio sui costi fissi, inclusa l\'energia, e la possibilità di beneficiare di contributi per investimenti 4.0.',
+        'efficiency' => 'I sistemi di automazione industriale offrono flessibilità, velocità, affidabilità, accuratezza e integrazione delle filiere alle imprese. L\'innovazione tecnologica è la risposta alle nuove sfide della rivoluzione industriale, dove la sensoristica e la robotica possono essere integrate in un\'unica architettura di controllo delle macchine. I sistemi di automazione industriale integrati, basati sulla disponibilità di informazioni in tempo reale, consentono di rispondere in modo efficiente alle variazioni del mercato.'
+    ]
+];
