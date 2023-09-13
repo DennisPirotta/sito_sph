@@ -43,26 +43,27 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="bg-primary rounded h-100 d-flex align-items-center p-5 wow zoomIn" data-wow-delay="0.9s">
-                        <form method="post" action="php/email.php">
+                        <form method="post" action="{{ route('email.quote-request') }}">
+                            @csrf
                             <div class="row g-3">
                                 <div class="col-xl-12">
-                                    <input type="text" name="nome" class="form-control bg-light border-0" placeholder="{{ __('Nome') }}" style="height: 55px;" required>
+                                    <input type="text" name="name" class="form-control bg-light border-0" placeholder="{{ __('Nome') }}" style="height: 55px;" required>
                                 </div>
                                 <div class="col-12">
                                     <input type="email" name="email" class="form-control bg-light border-0" placeholder="Email" style="height: 55px;" required>
                                 </div>
                                 <div class="col-12">
-                                    <select name="selezione" class="form-select bg-light border-0" style="height: 55px;" required>
-                                        <option selected>{{ __('Seleziona un servizio') }}</option>
+                                    <select name="service" class="form-select bg-light border-0" style="height: 55px;" required>
+                                        <option disabled selected hidden value>{{ __('Seleziona un servizio') }}</option>
                                         <option value="Sviluppo software e firmware">{{ __('Sviluppo di software e firmware') }}</option>
                                         <option value="Digitalizzazione">{{ __('Digitalizzazione') }}</option>
                                         <option value="Automatizzazione dei macchinari">{{ __('Automatizzazione dei macchinari') }}</option>
                                         <option value="Sviluppo siti web">{{ __('Sviluppo di applicazioni e siti web') }}</option>
-                                        <option value="altro">{{ __('Altro') }}</option>
+                                        <option value="Altro">{{ __('Altro') }}</option>
                                     </select>
                                 </div>
                                 <div class="col-12">
-                                    <textarea name="descrizione" class="form-control bg-light border-0" rows="3" placeholder="{{ __('Messaggio') }}"></textarea>
+                                    <textarea name="text" class="form-control bg-light border-0" rows="3" placeholder="{{ __('Messaggio') }}"></textarea>
                                 </div>
                                 <div class="col-12 d-flex align-items-center" style="color: black !important;">
                                     <input type="checkbox" name="privacy&policies" class="form-check" id="subscription" required>
@@ -78,6 +79,19 @@
             </div>
         </div>
     </div>
+
+    @if(session('message'))
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script>
+            Swal.fire(
+                'Grazie!',
+                'Ti ringraziamo per averci contattato, il nostro team ti risponderà entro 24 ore.',
+                'success'
+            )
+        </script>
+        @php(session()->forget('message'))
+    @endif
+
     <!-- Quote End -->
 
 </x-layout>

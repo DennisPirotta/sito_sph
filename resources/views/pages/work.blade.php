@@ -53,7 +53,8 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="bg-primary rounded h-100 d-flex align-items-center p-5 wow zoomIn" data-wow-delay="0.9s">
-                        <form method="post" action="php/email.php" enctype="multipart/form-data">
+                        <form method="post" action="{{ route('email.work-request') }}" enctype="multipart/form-data">
+                            @csrf
                             <div class="row g-3">
                                 <div class="col-12">
                                     <input type="text" name="name" class="form-control bg-light border-0" placeholder="{{ __('Nome') }}" style="height: 55px;">
@@ -65,9 +66,9 @@
                                     <textarea name="text" class="form-control bg-light border-0" rows="3" placeholder="{{ __('Messaggio') }}" style="height: 55px;"></textarea>
                                 </div>
                                 <div>
-                                    <h5 style="color:white;"><strong class="text-uppercase">{{ __('Allega il tuo CV') }}</strong></h5>
+                                    <h5 style="color:white;"><strong class="text-uppercase">{{ __('Allega il tuo CV') }}</strong><small class="ms-2">(.pdf)</small></h5>
                                     <span>
-                                        <input type="file" name="cv" size="40" class="form-control custom-file-input" accept=".jpg,.jpeg,.png,.gif,.pdf,.doc,.docx,.ppt,.pptx,.odt,.avi,.ogg,.m4a,.mov,.mp3,.mp4,.mpg,.wav,.wmv" aria-invalid="false">
+                                        <input type="file" name="cv" size="40" class="form-control custom-file-input" accept=".pdf" aria-invalid="false">
                                     </span>
                                 </div>
                                 <div class="col-12 d-flex align-items-center" style="color: black !important;">
@@ -103,6 +104,16 @@
             </div>
         </div>
     </div>
-
+    @if(session('message'))
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script>
+            Swal.fire(
+                'Grazie!',
+                'Ti ringraziamo per averci contattato, il nostro team ti risponderà entro 24 ore.',
+                'success'
+            )
+        </script>
+        @php(session()->forget('message'))
+    @endif
     <!-- Quote End -->
 </x-layout>
