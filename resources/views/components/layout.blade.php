@@ -69,17 +69,20 @@
     <div class="row gx-0">
         <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
             <div class="d-inline-flex align-items-center" style="height: 45px;">
-                <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>via Giuseppe Motta, 16 – 6830 – Chiasso, Svizzera</small>
-                <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+41 916831181</small>
+                <a href="https://goo.gl/maps/jrv17VtRHZHpcX4UA">
+                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>via Giuseppe Motta, 16 – 6830 – Chiasso, Svizzera</small>
+                </a>
+                <a href="tel:+41 916831181">
+                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+41 916831181</small>
+                </a>
             </div>
         </div>
         <div class="col-lg-4 text-center text-lg-end">
             <div class="d-inline-flex align-items-center" style="height: 45px;">
-                <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-twitter fw-normal"></i></a>
-                <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
-                <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
-                <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-instagram fw-normal"></i></a>
-                <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href=""><i class="fab fa-youtube fw-normal"></i></a>
+                <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.swissfirms.ch/it/details/?ENOFI=02209612" target="_blank">
+                    <img src="{{ asset('images/swissfirms-logo.jpeg') }}" width="16" height="16" alt="SwissFirms"/>
+                </a>
+                <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.instagram.com/sphtechnology/" target="_blank"><i class="fab fa-instagram fw-normal"></i></a>
             </div>
         </div>
     </div>
@@ -167,12 +170,11 @@
                         </div>
                         <div class="d-flex mt-4">
                             <a class="btn btn-primary btn-square me-2"
-                               href="https://www.facebook.com/3dautomationsrl/" target="_blank"><i
-                                    class="fab fa-facebook-f fw-normal"></i></a>
-                            <a class="btn btn-primary btn-square me-2"
-                               href="https://www.linkedin.com/company/3d-automation-srl/?originalSubdomain=it"
-                               target="_blank"><i class="fab fa-linkedin-in fw-normal"></i></a>
-                            <a class="btn btn-primary btn-square" href="https://www.instagram.com/3dautomationsrl/"
+                               href="https://www.swissfirms.ch/it/details/?ENOFI=02209612"
+                               target="_blank">
+                                <img src="{{ asset('images/swissfirms-logo.jpeg') }}" width="16" height="16" alt="SwissFirms"/>
+                            </a>
+                            <a class="btn btn-primary btn-square" href="https://www.instagram.com/sphtechnology/"
                                target="_blank"><i class="fab fa-instagram fw-normal"></i></a>
                         </div>
                     </div>
