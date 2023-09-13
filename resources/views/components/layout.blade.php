@@ -204,7 +204,7 @@
                                     class="bi bi-arrow-right text-primary me-2"></i>{{ __('Sostenibilità') }}</a>
                             <a class="text-light mb-2" href="{{ url('about') }}"><i
                                     class="bi bi-arrow-right text-primary me-2"></i>{{ __('Efficienza') }}</a>
-                            <a class="text-light mb-2" href="{{ asset('INFORMATIVA_LPD_SVIZZERA_S+H_TECHNOLOGY.pdf') }}"><i
+                            <a class="text-light mb-2" href="{{ route('terms') }}"><i
                                     class="bi bi-arrow-right text-primary me-2"></i>{{ __('Legge LPD') }}</a>
                         </div>
                     </div>
