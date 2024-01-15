@@ -4,7 +4,7 @@ return [
     'title' => 'Your partner for automation',
     'about' => [
         'title' => 'About us',
-        'subtitle' => 'S+H Technology s.r.l.- Your partner for automation',
+        'subtitle' => 'S+H Technology s.a.- Your partner for automation',
         'text' => 'Since its foundation, S+H Technology has always distinguished itself for its innovative drive, creating cutting-edge solutions in the field of industrial automation and the mobile world.<br><br>We develop plants, machines and test systems that embrace a wide field of industrial automation, giving us a great experience in different disciplines and technologies.'
     ],
     'us' => [

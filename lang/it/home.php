@@ -4,7 +4,7 @@ return [
     'title' => 'Il vostro partner per l\'automazione',
     'about' => [
         'title' => 'Chi siamo',
-        'subtitle' => 'S+H Technology s.r.l.- Il Vostro partner per l\'automazione',
+        'subtitle' => 'S+H Technology s.a.- Il Vostro partner per l\'automazione',
         'text' => 'Fin dalla sua fondazione la S+H Technology si è sempre distinta per il suo impulso innovativo realizzando soluzioni all\'avanguardia nel campo dell\'automazione industriale e del mondo mobile.<br><br>Sviluppiamo impianti, macchine e sistemi di collaudo che abbracciano un largo campo dell\'automazione industriale, conferendoci una grande esperienza in diverse discipline e tecnologie.'
     ],
     'us' => [

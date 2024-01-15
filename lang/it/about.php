@@ -2,7 +2,7 @@
 
 return [
     'title' => 'Chi siamo',
-    'subtitle' => 'S+H Technology s.r.l.- Il Vostro partner per l\'automazione',
+    'subtitle' => 'S+H Technology s.a.- Il Vostro partner per l\'automazione',
     'text' => 'Pronti ad accogliere ogni sfida nel campo dell’automazione abbiamo svolto lavori in numerosi ambiti, specializzandoci nella creazione di sistemi di collaudo, sistemi di controllo, nella realizzazione di macchine automatiche<br><br>Siamo esperti programmazione PLC Bosch Rexroth, Siemens, Allen Bradley, primeggiamo nella programmazione di National Instruments in LabView e programmazione di sistemi di controllo assi Bosch Rexroth, Siemens, Rockwell e ABB.<br><br>Con il passare degli anni grazie all’inserimento di personale, selezionato in base alla loro attitudine al lavoro di gruppo e alla reciproca collaborazione oltre alla loro qualifica, la S+H Technology, si è arricchita ulteriormente sia dal punto di vista umano che professionale, con l’obbiettivo che l’ha sempre contraddistinta, fin dalla fondazione, che è quello di soddisfare i suoi clienti in modo adeguato nella forma e nella sostanza in modo professionale ed umano, per il raggiungimento dei loro obbiettivi. Grazie a queste caratteristiche la S+H Technology ha sempre stretto un rapporto con i suoi clienti che va al di là del semplice rapporto cliente fornitore, creando un sodalizio di profonda, fattiva e stretta collaborazione.',
     'us' => [
         'title' => 'Perché scegliere noi',
