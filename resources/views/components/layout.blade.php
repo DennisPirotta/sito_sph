@@ -168,6 +168,10 @@
                             <i class="bi bi-telephone text-primary me-2"></i>
                             <a href="tel:+41 916831181"><p class="mb-0">+41 916831181</p></a>
                         </div>
+                        <div class="d-flex mb-2">
+                            <i class="bi bi-file-earmark-text text-primary me-2"></i>
+                            <p class="mb-0 text-primary">CHE 432.655.644</p>
+                        </div>
                         <div class="d-flex mt-4">
                             <a class="btn btn-primary btn-square me-2"
                                href="https://www.swissfirms.ch/it/details/?ENOFI=02209612"
